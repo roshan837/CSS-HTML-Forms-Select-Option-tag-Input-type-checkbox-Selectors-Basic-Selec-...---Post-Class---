@@ -18,6 +18,7 @@
 .righ-section{
     grid-column: span 1 / span 2;
     background-color: antiquewhite;
+    width: 90%;
 }
 .left-content{
     padding: 1rem;

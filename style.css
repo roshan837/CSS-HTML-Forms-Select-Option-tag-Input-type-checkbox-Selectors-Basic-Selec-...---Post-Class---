@@ -10,16 +10,14 @@
     grid-template-columns: 300px 700px;
     width: 90%;
     min-height: 1000px;
-    margin: 20px auto;
 }
 .left-section{
     grid-column: span 1;
     background-color: rgb(34, 126, 159);
 }
 .righ-section{
-    grid-column: span 1 / span 2;
+    grid-column: span 2;
     background-color: antiquewhite;
-    width: 90%;
 }
 .left-content{
     padding: 1rem;

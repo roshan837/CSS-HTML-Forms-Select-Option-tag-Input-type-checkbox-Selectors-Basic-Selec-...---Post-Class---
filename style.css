@@ -5,5 +5,77 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    width: 90%;
+    min-height: 1000px;
+    margin: 20px auto;
+}
+.left-section{
+    grid-column: span 1;
+    background-color: grey;
+}
+.righ-section{
+    grid-column: span 1 / span 2;
+    background-color: antiquewhite;
+}
+.left-content{
+    padding: 1rem;
+}
+.profile-image {
+    display: block;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+    
+}
+.name{
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    font-variant: small-caps;
+    text-align: center;
+}
+.designation{
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    font-variant: small-caps;
+    text-align: center;
+}
+.description{
+    font-size: 0.75rem;
+    padding: 1rem;
+    text-align: center;
+}
+.skill{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.skill-name {
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar {
+    border: 1px white solid;
+    height: 4px;
+}
+.right-main-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.right-title {
+    font-variant: small-caps;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 00.5rem;
+    letter-spacing: 1px;
+}
 /* Write CSS code below */

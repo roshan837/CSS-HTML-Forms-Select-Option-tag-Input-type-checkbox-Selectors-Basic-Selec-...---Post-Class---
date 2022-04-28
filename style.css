@@ -10,11 +10,10 @@
     grid-template-columns: 300px 700px;
     width: 90%;
     min-height: 1000px;
-    margin: 20px auto;
 }
 .left-section{
     grid-column: span 1;
-    background-color: grey;
+    background-color: rgb(34, 126, 159);
 }
 .righ-section{
     grid-column: span 1 / span 2;
@@ -31,21 +30,21 @@
     width: 60%;
     
 }
-.name{
+.name {
     font-size: 1.2rem;
     font-weight: 700;
     padding: 0.8rem;
-    font-variant: small-caps;
+    text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.02px;
 }
-.designation{
+.designation {
     font-size: 1rem;
     padding-bottom: 0.5rem;
-    font-variant: small-caps;
+    text-transform: uppercase;
     text-align: center;
 }
-.description{
+.description {
     font-size: 0.75rem;
     padding: 1rem;
     text-align: center;
@@ -53,6 +52,7 @@
 .skills{
     font-size: 0.75rem;
     text-align: center;
+    text-transform: uppercase;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 1rem;
@@ -74,10 +74,9 @@
     padding-right: 3rem;
 }
 .right-title {
-    font-variant: small-caps;
+    text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 700;
     padding: 00.5rem;
     letter-spacing: 1px;
 }
-/* Write CSS code below */

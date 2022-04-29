@@ -18,7 +18,7 @@
     width: 300px;
 }
 .righ-section{
-    grid-column: span 1 / span 2;
+    grid-column: span 2;
     background-color: antiquewhite;
     width: 700px;
 }

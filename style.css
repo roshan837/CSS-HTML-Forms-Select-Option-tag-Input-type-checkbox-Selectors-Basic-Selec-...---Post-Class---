@@ -15,10 +15,12 @@
 .left-section{
     grid-column: span 1;
     background-color: rgb(34, 126, 159);
+    width: 300px;
 }
 .righ-section{
     grid-column: span 1 / span 2;
     background-color: antiquewhite;
+    width: 700px;
 }
 .left-content{
     padding: 1rem;

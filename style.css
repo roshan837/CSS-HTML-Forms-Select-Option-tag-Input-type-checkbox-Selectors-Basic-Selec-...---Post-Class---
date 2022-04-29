@@ -87,6 +87,8 @@
     }
 }@media screen and (max-width:674px){
     .main-content{
-        grid-template-columns: 1000px;
+        grid-template-columns: 100%;
+        width: 90%;
+        min-height: 1000px;
     }
 }
